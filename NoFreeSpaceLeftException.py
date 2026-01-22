@@ -1,0 +1,2 @@
+class NoSpaceLeftException(Exception):
+    pass
