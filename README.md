@@ -96,6 +96,8 @@ Bases on this fact time complexities of hash table (set) methods are:
 
 Figure 1. find operation time complexity O(s/n), n = 10, h(element) = element % 10
 
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/c352c16a-ff39-4f66-91fa-fa7a3d7cabd1" />
+
 ### Chain hash table - time complexity reduction
 
 Let's find some complexities for find operation:
@@ -124,6 +126,8 @@ Avg find time complexity: (2 * 9 + 3 * 5) / 14 = (18 + 15) / 14 = 33 / 14 ~= 2,3
 **If s/n > b rehashing will be performed**
 
 Figure 2. find operation time complexity for hash table - initial n = 10 and b = 20
+
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/e286179e-06ee-4e39-87aa-cae60cbb32ad" />
 
 ## Open addressing hash table
 
@@ -173,4 +177,8 @@ scan_for method is used for finding element in array. scan_for returns array ind
 
 Figure 1. find operation time complexity for open addressing
 
+<img width="640" height="480" alt="Figure_3" src="https://github.com/user-attachments/assets/c10a13d4-5589-43dd-9964-69a23e82c546" />
+
 Figure 2. find operation time complexity for open addressing with rehashing if s\n >= 0.7
+
+<img width="640" height="480" alt="Figure_4" src="https://github.com/user-attachments/assets/8d1e6e32-9e6f-43f1-911f-b958aee6774c" />
